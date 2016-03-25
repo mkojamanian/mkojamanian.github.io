@@ -9,25 +9,17 @@
     /*height: 500px;*/
     width: 500px;
     margin-left: 150px;
+    background-color: grey;
   }
 
-    #page {
-      background-color: orange;
-      height: 500px;
-      margin: 5px auto;
-      border: 2px solid black;
-      border-radius: 10px;
-      }
-    h1 {
-      text-align: right;
-      padding-right: 20px;
-    }
     #nav {
       height: 37px;
       /*width: 350px;*/
-      margin: auto auto auto auto;
+      /*margin: auto auto auto auto;*/
       margin-left: 148px;
       /*margin-right: 0px;*/
+      /*padding-bottom: 15px;*/
+      /*padding-top: 10px;*/
       /*padding-left: 0px;*/
       /*padding-right: 300px;*/
       text: black;
@@ -38,12 +30,35 @@
     }
     ul {
       text-align: right;
+      /*background-color: black;*/
+      margin: 5px auto auto auto;
+      /*float: right;*/
     }
     li {
-      padding: auto;
+      /*padding: auto;*/
       display: inline;
-      margin: auto 12px auto 20px;
+      margin-left: 12px;
+      margin-right: 20px;
+      /*padding-top: 40px;*/
+      /*padding-bottom: 40px;*/
+      /*margin-top: 40px;*/
+      /*margin-bottom: 40px;*/
       font-size: 20px;
+      /*background-color: green;*/
+    }
+    a:hover {
+      background-color: black;
+    }
+    #page {
+      background-color: orange;
+      height: 500px;
+      margin: 5px auto;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: right;
+      padding-right: 20px;
     }
   </style>
 </head>
@@ -53,7 +68,16 @@
     <div id="nav">
       <ul>
         <li><a href="#">HLA</a></li>
-        <li><a href="#">Blog</a></li>
+        <li>
+          <a href="#">Blog</a>
+          <ul>
+            <li><a href="#">Adventures</a>
+            <li><a href="#">Bicycles</a>
+            <li><a href="#">Skate</a>
+            <li><a href="#">Sanctuary</a>
+          </ul>
+        </li>
+
   <!-- Dropdown, skate, ride/race, climb, adventure, sanctuary -->
         <li><a href="#">Portfolio</a></li>
     </div>
