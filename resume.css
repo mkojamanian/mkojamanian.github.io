@@ -1,24 +1,25 @@
 <style>
-#shell {
+  .shell{
   /*height: 500px;*/
+  /*background: red;*/
   width: 500px;
-  margin-left: 150px;
-}
-  #nav {
+  /*margin-left: 150px;*/
+  }
+  .nav {
     height: 37px;
     /*width: 350px;*/
-    margin: auto auto auto auto;
-    margin-left: 148px;
-    /*margin-right: 0px;*/
+    /*margin: auto;*/
+    /*margin-left: 148px;*/
+    margin-right: 148px;
     /*padding-left: 0px;*/
-    /*padding-right: 300px;*/
+    /*padding-right: 150px;*/
     text: black;
     border-radius: 10px;
     border: 2px solid black;
     background: orange url("http://leapingbunny.org/sites/all/themes/lbunny/images/small-logo.png") no-repeat left top;
     background-size: 15%;
   }
-  #page {
+  .page {
     background-color: orange;
     height: 500px;
     margin: 5px auto;
@@ -37,5 +38,11 @@
     display: inline;
     margin: auto 12px auto 20px;
     font-size: 20px;
+  }
+  .shell{
+    /*height: 500px;*/
+    /*background: red;*/
+    width: 500px;
+    margin-left: 150px;
   }
 </style>
