@@ -1,3 +1,37 @@
+  .boxes
+  {
+    width: 500px;
+    margin-left: 150px;
+    /*border: 1px solid black;*/
+    /*padding: 0;*/
+    border-collapse: collapse;
+    /*border-spacing: -3px;*/
+  }
+  .six
+  {
+    padding: 0px;
+    background-color: green;
+  }
+  .box1
+  {
+    height: 20px;
+    width: 148px;
+    background-color: orange;
+    border-collapse: collapse;
+    /*border-right: 1px solid black;*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  .box2
+  {
+    height: 20px;
+    width: 40px;
+    background-color: orange;
+
+  }
+
   .shell
   {
   height: 500px;
@@ -5,28 +39,23 @@
   width: 500px;
   margin-left: 150px;
   }
-
-    /*.shell h1
-    {
-      color: green;
-      font-size: 2em;
-      font-style: italic;
-    }*/
+  .icon
+  {
+    height: 37px;
+    margin-right: 348px;
+    background-color: orange;
+  }
 
   .nav {
     height: 37px;
-    /*width: 350px;*/
-    /*margin: auto;*/
     margin-left: 148px;
-    /*margin-right: 148px;*/
-    /*padding-left: 0px;*/
-    /*padding-right: 0px;*/
     font: black;
     border-radius: 10px;
     border: 2px solid black;
     background: orange url("http://leapingbunny.org/sites/all/themes/lbunny/images/small-logo.png") no-repeat left top;
     background-size: 15%;
   }
+
   .page {
     background-color: orange;
     height: 500px;
