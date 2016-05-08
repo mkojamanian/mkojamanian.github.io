@@ -57,3 +57,7 @@ li {
   margin: auto 12px auto 20px;
   font-size: 20px;
 }
+
+footer {
+  float: right; 
+}
