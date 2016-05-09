@@ -13,7 +13,7 @@ margin-left: 150px;
   background-color: orange;
 }
 
-.nav {
+nav {
   height: 37px;
   float: right;
   margin: 0 0 .5em 0;
@@ -28,6 +28,10 @@ a:link {
 }
 a:hover {
   color: green;
+}
+
+nav ul li ul li {
+  display: none;
 }
 
 .page {
