@@ -54,7 +54,10 @@ li {
   text-decoration: underline;
 }
 
-
 /* .background: color-image-repeat-attachment-position */
 /* .dot means you're looking for a class */
 /* #hash calls an id */]'''
+
+footer {
+  float: right; 
+}
