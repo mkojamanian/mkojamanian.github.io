@@ -1,6 +1,5 @@
 .content-container {
 height: 500px;
-/*background: red;*/
 width: 500px;
 margin-left: 150px;
 }
@@ -13,7 +12,7 @@ margin-left: 150px;
   background-color: orange;
 }
 
-.nav {
+nav {
   height: 37px;
   float: right;
   margin: 0 0 .5em 0;
@@ -21,10 +20,6 @@ margin-left: 150px;
   border-radius: 10px;
   border: 2px solid black;
   background-color: orange;
-  /*background image in html file*/
-  /*background-size: contain;*/
-  /*background: orange url("./photos/leapingbunny.png") no-repeat left top;*/
-  /*http://leapingbunny.org/sites/all/themes/lbunny/images/small-logo.png*/
 }
 
 a:link {
@@ -57,3 +52,7 @@ li {
   margin: auto 12px auto 20px;
   font-size: 20px;
 }
+
+/*background: color-image-repeat-attachment-position*/
+/* .dot means you're looking for a class */
+/* #hash calls an id 
