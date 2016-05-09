@@ -51,8 +51,10 @@ li {
   display: inline;
   margin: auto 12px auto 20px;
   font-size: 20px;
+  text-decoration: underline;
 }
 
-/*background: color-image-repeat-attachment-position*/
+
+/* .background: color-image-repeat-attachment-position */
 /* .dot means you're looking for a class */
-/* #hash calls an id 
+/* #hash calls an id */]'''
