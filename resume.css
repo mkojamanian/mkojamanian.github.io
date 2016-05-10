@@ -55,7 +55,9 @@ nav > ul li a {
 
 
 nav > ul li ul {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
+  transition: opacity .4s;
   float: right;
   background-color: pink;
 }
@@ -67,7 +69,8 @@ nav > ul :hover {
 
 /* show menu */
 nav > ul :hover > ul {
-  display: block;
+  /*display: block;*/
+  opacity: 1;
   background: white;
   position:relative;
 }
