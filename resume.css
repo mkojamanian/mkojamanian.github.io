@@ -7,7 +7,6 @@
 
 .content-container {
 height: 500px;
-/*background: red;*/
 width: 500px;
 margin-left: 150px
 }
@@ -94,6 +93,10 @@ h1 {
   text-align: right;
   padding-right: 20px;
 }
+
+/* .background: color-image-repeat-attachment-position */
+/* .dot means you're looking for a class */
+/* #hash calls an id */]'''
 
 footer {
   float: right; 
