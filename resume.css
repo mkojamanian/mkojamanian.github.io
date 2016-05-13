@@ -1,5 +1,5 @@
 * {
-  list-style: none;
+  /*list-style: none;*/
   /*text-decoration: none;*/
   padding:0;
   margin:0;
@@ -23,7 +23,7 @@ nav {
   height: 37px;
   width: auto;
   float: right;
-  margin: 0 0 .5em 0;
+  margin: .5em 0 .5em 0;
   padding-left: 51px;
   border-radius: 10px;
   border: 2px solid black;
@@ -31,7 +31,6 @@ nav {
 }
 
 nav a {
-  padding: 5px;
   display: block;
 }
 nav > ul {
@@ -41,7 +40,7 @@ nav > ul {
 
 nav > ul li {
   float: left;
-  padding: ;
+  /*padding: 0em;*/
   display: inline-block;
   width: 100px;
   font-size: 20px
@@ -50,7 +49,8 @@ nav > ul li {
 nav > ul li a {
   color: black;
   text-decoration: none;
-  border: 2px solid green
+  border: 1px solid black;
+  padding: .3em
 }
 
 
@@ -58,13 +58,16 @@ nav > ul li ul {
   /*display: none;*/
   opacity: 0;
   transition: opacity .4s;
+  -webkit-transition: opacity .4s;
+  transition: opacity .4s;
+  transition: opacity .4s;
   float: right;
   background-color: pink;
 }
 
 nav > ul :hover {
   color: green;
-  display: block;
+  /*display: block;*/
 }
 
 /* show menu */
@@ -75,32 +78,47 @@ nav > ul :hover > ul {
   position:relative;
 }
 
-nav li a :hover nav ul {
-  display: block;
-}
+/*nav li a :hover nav ul {
+  /*display: block;
+}*/
 
 
-
-
+/* Page (main) Content */
 .page {
   background-color: orange;
   height: 500px;
-  margin: 5px auto;
+  margin: 6px auto;
   border: 2px solid black;
   border-radius: 10px;
   clear: both;
 }
 
-
-h1 {
+.page h1 {
   text-align: right;
-  padding-right: 20px;
+  padding: .5em .5em .5em 10em;
+  width: 3em;
+  /*text-indent: 10em;*/
 }
 
-/* .background: color-image-repeat-attachment-position */
-/* .dot means you're looking for a class */
-/* #hash calls an id */]'''
+.page p {
+  text-indent: .75em;
+}
 
+.page h4 {
+  text-align: left;
+  padding: .5em;
+  width: auto;
+}
+
+.page ol {
+  list-style-type: decimal;
+  padding: 0;
+}
 footer {
   float: right; 
 }
+
+/* .background:
+  color-image-repeat-attachment-position */
+/* .dot means you're looking for a class */
+/* #hash calls an id */
